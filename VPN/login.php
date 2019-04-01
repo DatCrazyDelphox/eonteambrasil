@@ -10,7 +10,7 @@ include_once("functions.php");
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
-        <link rel="icon" href="FESET logo.png" type="image/x-icon" />
+        <link rel="icon" href="/SharedAssets/img/raposa png.png" type="image/x-icon" />
         <!-- END META SECTION -->
         
         <!-- CSS INCLUDE -->        
@@ -22,8 +22,8 @@ include_once("functions.php");
         <div class="login-container">
         
             <div class="login-box animated fadeInDown">
-                <div class="login-logo">Eon Team Servers</div>
-				<div class="login-legenda">Acesso ao painel</div>
+                <div class="login-logo">Eon Team Brasil</div>
+				<div class="login-legenda">Login</div>
                 <div class="login-body">
                     <div class="login-title"><strong>Seja Bem Vindo</strong></div>
                     <form id="FormLogin" name="FormLogin" class="form-horizontal" method="POST" action="javascript:FormLogin()">
