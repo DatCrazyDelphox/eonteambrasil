@@ -14,7 +14,7 @@ $senha = (isset($_POST['senha'])) ? $_POST['senha'] : '';
 		echo MensagemAlerta('Erro', 'Senha é um campo obrigatório', "danger");
 	}
 	elseif(ValidarUsuario($usuario, $senha) == true){
-		echo Redirecionar('index.php?p=inicio');
+		echo Redirecionar('VPN/index.php?p=inicio');
 	} 
 	else{
 		echo MensagemAlerta('Erro', 'Usuário ou Senha não confere!', "danger");

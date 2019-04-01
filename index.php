@@ -1,6 +1,6 @@
 <?php
-include("conexao.php");
-include_once("functions.php");
+include("VPN/conexao.php");
+include_once("VPN/functions.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -18,7 +18,7 @@ include_once("functions.php");
 
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" id="theme" href="css/theme-dark.css"/>
+	<link rel="stylesheet" type="text/css" id="theme" href="VPN/css/theme-dark.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/slicknav.min.css"/>
@@ -148,7 +148,7 @@ include_once("functions.php");
 	</footer>
 	<!-- Footer section end -->
 	
-	<script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="VPN/js/plugins/jquery/jquery.min.js"></script>
 <script>
 $(function(){
 
@@ -161,14 +161,14 @@ $(function(){
 			type: "POST",
 			data: formData,
 			async: true,
-			url: "validar-login.php",
+			url: "VPN/validar-login.php",
 			success: function(result){
 				$("#StatusLogin").html('');
 				$("#StatusGeral").html('');
 				$("#StatusGeral").append(result);
 			},
 			beforeSend: function(){
-		  	  	$('#StatusLogin').html("<center><img src=\"img/owl/AjaxLoader.gif\"><br><br></center>");
+		  	  	$('#StatusLogin').html("<center><img src=\"VPN/img/owl/AjaxLoader.gif\"><br><br></center>");
 		  	},
 			cache: false,
         	contentType: false,
