@@ -7,7 +7,7 @@ include_once("functions.php");
 // Servidor MySQL
 $_MDouglas['servidor'] = 'localhost';
 // Usuário MySQL
-$_MDouglas['usuario'] = 'phpmyadmin';
+$_MDouglas['usuario'] = 'root';
 // Senha MySQL
 $_MDouglas['senha'] = 'Ph0xyB0i';
 
