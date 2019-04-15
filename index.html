@@ -53,9 +53,25 @@
 </head>
 <body>
 	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
+	<div id="overlay"></div>
+	<style>
+			#overlay {
+					position: fixed;
+					background: rgb(0, 0, 0);
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+			}
+			.hide {
+					display: none;
+			}
+	</style>
+	<script>
+			$(window).load(function() {
+			 $('#overlay').addClass('hide');
+			});
+	</script>
 
 	<!-- Header section -->
 	<header class="header-section">
