@@ -17,13 +17,13 @@ include_once("functions.php");
         <link rel="stylesheet" type="text/css" id="theme" href="css/theme-dark.css"/>
         <!-- EOF CSS INCLUDE -->                                     
     </head>
-    <body style="background-color:black;">
+    <body>
 
         <div class="login-container">
         
             <div class="login-box animated fadeInDown">
-                <div><img src="/SharedAssets/img/logoraposa.png" style="width: 300px;margin-left: 37px;margin-bottom: 6.0;margin-top: 30px;margin-bottom: 40px;"></div>
-				<div class="login-legenda">Acesso ao painel</div>
+                <div class="login-logo">Eon Team Brasil</div>
+				<div class="login-legenda">Login</div>
                 <div class="login-body">
                     <div class="login-title"><strong>Seja Bem Vindo</strong></div>
                     <form id="FormLogin" name="FormLogin" class="form-horizontal" method="POST" action="javascript:FormLogin()">
@@ -46,8 +46,7 @@ include_once("functions.php");
                     </form>
                 </div>
             </div>
-            <div id="butao">
-            <a href="download.html">>Área de Downloads<</a>
+            
         </div>
 
 <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>

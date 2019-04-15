@@ -115,10 +115,10 @@ $CotaTesteDisponivel = $VerificarLimiteTeste - $VerificarCotaTeste;
 	$SQL->execute(); 
 	
 	if(empty($SQL)){
-		echo MensagemAlerta('Erro', 'Ocorreu um problema ao cadastrar o usuário!', "danger", 'login.php');
+		echo MensagemAlerta('Erro', 'Ocorreu um problema ao cadastrar o usuário!', "danger", UrlAtual());
 	}
 	else{
-		echo MensagemAlerta('Sucesso', 'Teste adicionado com sucesso!', "success", 'login.php');
+		echo MensagemAlerta('Sucesso', 'Teste adicionado com sucesso!', "success", UrlAtual());
 	}
 		
 		

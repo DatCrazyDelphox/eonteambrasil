@@ -377,7 +377,7 @@ ol {
 	height: 20px;
 	right: 0;
 	top: 1px;
-	background-image: url("../img/icons/arrow-down.png");
+	/*background-image: url("../img/icons/arrow-down.png");*/
 	background-repeat: no-repeat;
 	background-position: right center;
 }
@@ -399,10 +399,6 @@ ol {
 	color: #b01ba5;
 }
 
-.main-menu li a:hover:after {
-	background-image: url("../img/icons/arrow-down-color.png");
-}
-
 .main-menu li a:hover i {
 	color: #b01ba5;
 }
@@ -417,10 +413,6 @@ ol {
 	color: #b01ba5;
 }
 
-.main-menu li:hover>a:after {
-	background-image: url("../img/icons/arrow-down-color.png");
-}
-
 .main-menu li .sub-menu {
 	position: absolute;
 	list-style: none;
@@ -431,14 +423,15 @@ ol {
 	padding: 20px 0;
 	visibility: hidden;
 	opacity: 0;
+	/*border: 2px solid green;*/
 	margin-top: 50px;
 	background: #081624;
 	z-index: 99;
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
-	-webkit-box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.4);
-	box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 2px 7px 20px rgba(176, 27, 165, 0.4);
+	box-shadow: 2px 7px 20px rgba(176, 27, 165, 0.4);
 }
 
 .main-menu li .sub-menu li {

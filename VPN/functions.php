@@ -130,12 +130,6 @@ function Redirecionar($url){
 			</script>";
 }
 
-function FullRedirect($url){
-	return "<script language= \"JavaScript\">
-			window.location.replace(\"".$url."\")
-			</script>";
-}
-
 function ArvoreUser($CadUser){	
 	include("conexao.php");
 	$Arvore = array();
